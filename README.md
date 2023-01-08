@@ -24,4 +24,4 @@
 - host: mescla a network do docker com a network do host do docker.
 - overlay: não é muito comum. faz com que containers de maquinas diferentes se comuniquem. geralmente é usado no docker swarm.
 - macvlan
-- none: nenhuma rede.
+- none: nenhuma rede
