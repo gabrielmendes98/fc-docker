@@ -18,6 +18,12 @@
 - dica: docker rm $(docker ps -a -q) -f
 - remove todos os containers ativos e inativos
 
+<br />
+
+- docker build -t gabrielmssantiago/laravel:latest .
+- docker run --rm -d --name laravel -p 8000:8000 gabrielmssantiago/laravel
+- roda o container do laravel
+
 ## Docker networks
 
 - bidge: tipo mais comum e usado por default. Faz com que um container se comunique com outro.
