@@ -26,7 +26,13 @@
 
 <br />
 
+- Rodando servidor laravel com nginx como proxy reverso:
 - docker build -t gabrielmssantiago/laravel:prod laravel -f laravel/Dockerfile.prod
+- docker build -t gabrielmssantiago/nginx:prod nginx -f nginx/Dockerfile.prod
+- docker network create laranet
+- docker run -d --network laranet --name laravel gabrielmssantiago/laravel:prod
+- docker run -d --network laranet --name nginx -p 8080:80 gabrielmssantiago/nginx:prod
+- acessar localhost:8080
 
 ## Docker networks
 
