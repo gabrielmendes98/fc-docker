@@ -24,6 +24,10 @@
 - docker run --rm -d --name laravel -p 8000:8000 gabrielmssantiago/laravel
 - roda o container do laravel
 
+<br />
+
+- docker build -t gabrielmssantiago/laravel:prod laravel -f laravel/Dockerfile.prod
+
 ## Docker networks
 
 - bidge: tipo mais comum e usado por default. Faz com que um container se comunique com outro.
