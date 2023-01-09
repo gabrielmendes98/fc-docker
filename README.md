@@ -1,3 +1,7 @@
+# Docker
+
+Repositório criado para praticar os conceitos do Docker e Docker Compose
+
 ## Comandos utilizados
 
 - docker build -t gabrielmssantiago/nginx-com-vim:latest .
