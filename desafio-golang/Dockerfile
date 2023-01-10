@@ -11,7 +11,7 @@ COPY *.go ./
 RUN go build -o /hello-world
 
 # Deploy
-FROM alpine:3.16.2
+FROM scratch
 
 WORKDIR /
 
