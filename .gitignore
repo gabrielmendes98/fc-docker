@@ -1,3 +1,5 @@
 node_modules
 aulas/mysql/*
 !aulas/mysql/.gitkeep
+desafio-node-nginx/mysql/*
+!desafio-node-nginx/mysql/.gitkeep
